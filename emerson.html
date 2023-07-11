@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>W3.CSS Template</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Montserrat"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <style>
+      body,
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6 {
+        font-family: "Montserrat", sans-serif;
+      }
+      .w3-row-padding img {
+        margin-bottom: 12px;
+      }
+      .w3-sidebar {
+        width: 120px;
+        background: #222;
+      }
+      #main {
+        margin-left: 120px;
+      }
+      @media only screen and (max-width: 600px) {
+        #main {
+          margin-left: 0;
+        }
+      }
+    </style>
+  </head>
+  <body class="w3-black">
+    <!-- Icon Bar (Sidebar - hidden on small screens) -->
+    <nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
+      <!-- Avatar image in top left corner -->
+      <img src="./emersonbruno.jpg" style="width: 100%" />
+      <a href="#" class="w3-bar-item w3-button w3-padding-large w3-black">
+        <i class="fa fa-home w3-xxlarge"></i>
+        <p>Página inicial</p>
+      </a>
+      <a
+        href="#about"
+        class="w3-bar-item w3-button w3-padding-large w3-hover-black"
+      >
+        <i class="fa fa-user w3-xxlarge"></i>
+        <p>Sobre</p>
+      </a>
+      <a
+        href="#contact"
+        class="w3-bar-item w3-button w3-padding-large w3-hover-black"
+      >
+        <i class="fa fa-envelope w3-xxlarge"></i>
+        <p>Contato</p>
+      </a>
+    </nav>
+
+    <!-- Navbar on small screens (Hidden on medium and large screens) -->
+    <div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
+      <div
+        class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small"
+      >
+        <a href="#" class="w3-bar-item w3-button" style="width: 25% !important"
+          >Página inicial</a
+        >
+        <a
+          href="#about"
+          class="w3-bar-item w3-button"
+          style="width: 25% !important"
+          >Sobre</a
+        >
+        <a
+          href="#photos"
+          class="w3-bar-item w3-button"
+          style="width: 25% !important"
+          >Fotos</a
+        >
+        <a
+          href="#contact"
+          class="w3-bar-item w3-button"
+          style="width: 25% !important"
+          >Contato</a
+        >
+      </div>
+    </div>
+
+    <!-- Page Content -->
+    <div class="w3-padding-large" id="main">
+      <!-- Header/Home -->
+      <header class="w3-container w3-padding-32 w3-center w3-black" id="home">
+        <h1 class="w3-jumbo">
+          <span class="w3-hide-small">Emerson Bruno</span>
+        </h1>
+        <p>Desenvolvedor Front-end.</p>
+        <img
+          src="./emersonbruno.jpg"
+          alt="boy"
+          class="w3-image"
+          width="300"
+          height="600"
+        />
+      </header>
+      <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
+        <h2 class="w3-text-light-grey">Emerson Bruno</h2>
+        <hr style="width: 200px" class="w3-opacity" />
+        <p>
+          Desenvolvedor Front-End Júnior apaixonado por criar experiências
+          digitais incríveis. Com sólidos conhecimentos em HTML, CSS,
+          JavaScript, TypeScript, React e Bootstrap, estou em busca de uma
+          oportunidade para aplicar minhas habilidades e contribuir para o
+          desenvolvimento de soluções web inovadoras. Minha jornada no
+          desenvolvimento front-end me permitiu adquirir experiência na
+          construção de interfaces responsivas, criação de layouts atraentes e
+          implementação de interatividade através de recursos avançados de
+          JavaScript. Sou apaixonado por escrever código limpo e semântico,
+          focando na usabilidade e na acessibilidade. Além das minhas
+          habilidades técnicas, tenho uma sólida compreensão dos princípios de
+          design e estou sempre em busca de aprimorar minha visão estética. Sou
+          um colaborador proativo, capaz de trabalhar em equipe e adaptar-me a
+          novas tecnologias e desafios com facilidade. Estou empenhado em
+          continuar aprendendo e acompanhando as últimas tendências do
+          desenvolvimento front-end, buscando constantemente oportunidades de
+          crescimento profissional. Com um olhar atento aos detalhes, estou
+          determinado a entregar produtos de alta qualidade que superem as
+          expectativas dos usuários. Se você procura um desenvolvedor front-end
+          júnior dedicado e entusiasta, pronto para contribuir com seu projeto,
+          vamos conectar-nos! Estou aberto a oportunidades empolgantes e a fazer
+          parte de uma equipe criativa e colaborativa.
+        </p>
+        <h3 class="w3-padding-16 w3-text-light-grey">Minhas Habilidades</h3>
+        <p class="w3-wide">Html</p>
+        <div class="w3-white">
+          <div class="w3-dark-grey" style="height: 28px; width: 100%"></div>
+        </div>
+        <p class="w3-wide">CSS</p>
+        <div class="w3-white">
+          <div class="w3-dark-grey" style="height: 28px; width: 90%"></div>
+        </div>
+        <p class="w3-wide">JavaScript</p>
+        <div class="w3-white">
+          <div class="w3-dark-grey" style="height: 28px; width: 90%"></div>
+        </div>
+        <p class="w3-wide">React</p>
+        <div class="w3-white">
+          <div class="w3-dark-grey" style="height: 28px; width: 75%"></div>
+        </div>
+        <p class="w3-wide">Styled-Components</p>
+        <div class="w3-white">
+          <div class="w3-dark-grey" style="height: 28px; width: 75%"></div>
+        </div>
+        <p class="w3-wide">Bootstrap</p>
+        <div class="w3-white">
+          <div class="w3-dark-grey" style="height: 28px; width: 90%"></div>
+        </div>
+        <br />
+
+      <div class="w3-padding-64 w3-content w3-text-grey" id="contact">
+        <h2 class="w3-text-light-grey">Contato</h2>
+        <hr style="width: 200px" class="w3-opacity" />
+
+        <div class="w3-section">
+          <p>
+            <i
+              class="fa fa-map-marker fa-fw w3-text-white w3-xxlarge w3-margin-right"
+            ></i>
+            Campina Grande, Paraíba
+          </p>
+          <p>
+            <i
+              class="fa fa-phone fa-fw w3-text-white w3-xxlarge w3-margin-right"
+            ></i>
+            Phone: +55 (83) 99960-6225
+          </p>
+          <p>
+            <i
+              class="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"
+            >
+            </i>
+            Email: dev-emersonhenriques@hotmail.com
+          </p>
+        </div>
+        <br />
+        <p>Ficou interessado? Me mande uma mensagem:</p>
+
+        <form action="/action_page.php" target="_blank">
+          <p>
+            <input
+              class="w3-input w3-padding-16"
+              type="text"
+              placeholder="Name"
+              required
+              name="Name"
+            />
+          </p>
+          <p>
+            <input
+              class="w3-input w3-padding-16"
+              type="text"
+              placeholder="Email"
+              required
+              name="Email"
+            />
+          </p>
+          <p>
+            <input
+              class="w3-input w3-padding-16"
+              type="text"
+              placeholder="Subject"
+              required
+              name="Subject"
+            />
+          </p>
+          <p>
+            <input
+              class="w3-input w3-padding-16"
+              type="text"
+              placeholder="Message"
+              required
+              name="Message"
+            />
+          </p>
+          <p>
+            <button
+              class="w3-button w3-light-grey w3-padding-large"
+              type="submit"
+            >
+              <i class="fa fa-paper-plane"></i> SEND MESSAGE
+            </button>
+          </p>
+        </form>
+      </div>
+
+      <footer class="w3-content w3-padding-64 w3-text-grey w3-xlarge">
+        <i class="fa fa-linkedin w3-hover-opacity"></i>
+        <i class="fa fa-github w3-hover-opacity"></i>
+      </footer>
+    </div>
+  </body>
+</html>
